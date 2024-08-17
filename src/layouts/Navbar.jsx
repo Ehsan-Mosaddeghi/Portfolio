@@ -9,8 +9,8 @@ const menuItems = [
 
 function Navbar() {
   return (
-    <header className="w-full h-16 flex justify-center items-center">
-      <nav className="flex justify-center items-center gap-4 p-4 bg-primary rounded-full text-primary hover:gap-7 transition-all duration-300 ">
+    <header className="fixed w-full h-16 flex justify-center items-center">
+      <nav className="flex justify-center items-center gap-4 p-4 bg-zinc-900 rounded-full text-primary hover:gap-7 transition-all duration-300 ">
         {menuItems.map((item) => (
           <Link
             to={item.url}
