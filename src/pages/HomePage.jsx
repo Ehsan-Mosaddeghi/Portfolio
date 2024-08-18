@@ -1,6 +1,6 @@
-import React from "react";
-
 import Typewriter from "typewriter-effect";
+
+import "./HomePage.css";
 
 function HomePage() {
   const title = "Hi, It's Ehsan";
@@ -8,11 +8,13 @@ function HomePage() {
   return (
     <section className="w-full min-h-svh  bg-primary flex ">
       <div className=" w-full flex items-center justify-center gap-8">
-        <img
-          src="../public/images/homepage-image.jpg"
-          alt="portfolio image"
-          className="w-64 rounded-full"
-        />
+        <div className="image-container relative">
+          <img
+            src="../public/images/homepage-image.jpg"
+            alt="portfolio image"
+            className="relative w-64 rounded-full z-10"
+          />
+        </div>
 
         <div className="text-5xl">
           <Typewriter
