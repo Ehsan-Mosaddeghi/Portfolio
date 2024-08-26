@@ -2,29 +2,30 @@ import Typewriter from "typewriter-effect";
 
 import "./HomePage.css";
 import Links from "../ui/Links";
+import SkillsList from "../components/SkillsList";
 
 function HomePage() {
   const title = "Hi, It's Ehsan";
 
   return (
-    <section className="w-full min-h-svh  bg-primary flex ">
-      <div className=" w-full flex items-center justify-center gap-8">
+    <>
+      <div className="container m-auto flex min-h-svh items-center justify-center gap-8">
         <div className="image-container relative">
           <img
             src="/images/homepage-image.jpg"
             alt="portfolio image"
-            className="relative w-64 rounded-full z-10"
+            className="image-me relative z-10 w-64 rounded-full"
           />
         </div>
 
-        <div className="text-stone-200 text-5xl">
+        <div className="space-y-4 text-5xl text-stone-200">
           <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString(title).start();
             }}
           />
 
-          <p className="text-lg max-w-sm text-stone-400">
+          <p className="max-w-sm text-lg text-stone-400">
             19 years old self-taught frontend developer passionate about
             learning and creating innovative user experiences. Eager to grow and
             explore new technologies.
@@ -33,7 +34,18 @@ function HomePage() {
           <Links />
         </div>
       </div>
-    </section>
+
+      <div className="container m-auto flex flex-col gap-10">
+        <div>
+          <h2 className="text-5xl">Skills</h2>
+          <p>Some of the software I use on daily basis</p>
+        </div>
+
+        <div>
+          <SkillsList />
+        </div>
+      </div>
+    </>
   );
 }
 

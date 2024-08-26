@@ -5,7 +5,9 @@ function AppLayout() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <section>
+        <Outlet />
+      </section>
     </>
   );
 }

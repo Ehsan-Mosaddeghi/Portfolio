@@ -9,13 +9,13 @@ const menuItems = [
 
 function Navbar() {
   return (
-    <header className="fixed w-full h-16 flex justify-center items-center">
-      <nav className="flex justify-center items-center gap-4 p-4 bg-zinc-900 rounded-full text-primary hover:gap-7 transition-all duration-300 ">
+    <header className="fixed z-50 flex h-20 w-full items-center justify-center">
+      <nav className="flex items-center justify-center gap-4 rounded-full bg-zinc-900 p-4 text-primary transition-all duration-300 hover:gap-7">
         {menuItems.map((item) => (
           <Link
             to={item.url}
             key={item.name}
-            className="hover:text-slate-200 transition duration-300"
+            className="transition duration-300 hover:text-slate-200"
           >
             {item.name}
           </Link>
