@@ -5,39 +5,39 @@ import SkillItem from "./SkillItem";
 const skillItems = [
   {
     icon: <SiNuxtdotjs className="text-green-500" />,
-    name: "Nuxt",
+    url: "https://nuxt.com",
   },
   {
     icon: <FaVuejs className="text-green-400" />,
-    name: "Vue",
+    url: "https://vuejs.org",
   },
   {
     icon: <FaReact className="text-blue-400" />,
-    name: "React",
+    url: "https://react.dev",
   },
   {
     icon: <FaHtml5 className="text-red-500" />,
-    name: "HTML",
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   {
     icon: <FaCss3 className="text-blue-500" />,
-    name: "CSS",
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
     icon: <FaJs className="text-yellow-400" />,
-    name: "JavaScript",
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     icon: <SiTailwindcss className="text-blue-400" />,
-    name: "Tailwind CSS",
+    url: "https://tailwindcss.com",
   },
 ];
 
 function SkillsList() {
   return (
-    <ul className="flex flex-wrap justify-center gap-8">
+    <ul className="flex flex-wrap justify-between gap-8">
       {skillItems.map((item, i) => (
-        <SkillItem key={i} name={item.name}>
+        <SkillItem key={i} url={item.url}>
           {item.icon}
         </SkillItem>
       ))}

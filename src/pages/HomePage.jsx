@@ -8,8 +8,8 @@ function HomePage() {
   const title = "Hi, It's Ehsan";
 
   return (
-    <>
-      <div className="container m-auto flex min-h-svh items-center justify-center gap-8">
+    <div className="flex h-svh flex-col">
+      <div className="container m-auto flex items-center justify-center gap-8">
         <div className="image-container relative">
           <img
             src="/images/homepage-image.jpg"
@@ -45,7 +45,7 @@ function HomePage() {
           <SkillsList />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
