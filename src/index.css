@@ -28,3 +28,24 @@ body {
 .slide-fade-leave-active {
   transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
 }
+
+.active {
+  @apply text-stone-50;
+}
+
+.break-line {
+  background-image: linear-gradient(
+    96.18deg,
+    rgba(43, 46, 48, 0) 10%,
+    rgba(255, 255, 255, 0.24) 50%,
+    rgba(43, 46, 48, 0) 90%
+  );
+  bottom: auto;
+  height: 1px;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
