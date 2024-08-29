@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-primary;
-  @apply text-primary;
 }
 
 .container {

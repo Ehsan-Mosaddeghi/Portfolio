@@ -1,14 +1,14 @@
 function SkillItem({ children, url }) {
   return (
-    <>
-      <div className="relative gap-2 duration-300 hover:scale-110">
-        <a href={url} target="blink">
-          <li className="p-4 text-5xl after:absolute after:left-0 after:top-0 after:-z-10 after:h-full after:w-full after:rounded-md after:border after:border-stone-900 after:bg-stone-800 after:duration-300 hover:after:bg-stone-900">
-            {children}
-          </li>
-        </a>
-      </div>
-    </>
+    <a
+      href={url}
+      target="blink"
+      className="relative m-4 h-20 w-20 rounded-md border border-stone-900 bg-stone-800 duration-300 hover:scale-110 hover:border-rose-300 hover:bg-stone-900"
+    >
+      <li className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl">
+        {children}
+      </li>
+    </a>
   );
 }
 

@@ -1,15 +1,14 @@
 import Typewriter from "typewriter-effect";
 
 import "./HomePage.css";
-import Links from "../ui/Links";
 import SkillsList from "../components/SkillsList";
 
 function HomePage() {
   const title = "Hi, It's Ehsan";
 
   return (
-    <div className="flex h-svh flex-col">
-      <div className="container m-auto flex items-center justify-center gap-8">
+    <div className="mt-16 flex flex-col gap-20">
+      <div className="flex items-center justify-center gap-8">
         <div className="image-container relative">
           <img
             src="/images/homepage-image.jpg"
@@ -35,7 +34,7 @@ function HomePage() {
 
       <div className="break-line"></div>
 
-      <div className="container m-auto flex flex-col gap-10">
+      <div className="flex flex-col gap-10">
         <div>
           <h2 className="text-5xl">Skills</h2>
           <p>Some of the software I use on daily basis</p>

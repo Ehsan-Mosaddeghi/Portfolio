@@ -35,7 +35,7 @@ const skillItems = [
 
 function SkillsList() {
   return (
-    <ul className="flex flex-wrap justify-between gap-8">
+    <ul className="flex flex-wrap justify-between">
       {skillItems.map((item, i) => (
         <SkillItem key={i} url={item.url}>
           {item.icon}

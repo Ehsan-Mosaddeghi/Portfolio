@@ -4,13 +4,13 @@ import Footer from "./Footer";
 
 function AppLayout() {
   return (
-    <>
+    <div className="flex min-h-svh flex-col bg-gradient-to-b from-slate-500 to-stone-900 text-primary">
       <Navbar />
-      <section>
+      <section className="container m-auto flex-auto">
         <Outlet />
       </section>
       <Footer />
-    </>
+    </div>
   );
 }
 
