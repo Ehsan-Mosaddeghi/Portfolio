@@ -7,7 +7,7 @@ function HomePage() {
   const title = "Hi, It's Ehsan";
 
   return (
-    <div className="mt-16 flex flex-col gap-20">
+    <div className="flex flex-col gap-20">
       <div className="flex items-center justify-center gap-8">
         <div className="image-container relative">
           <img

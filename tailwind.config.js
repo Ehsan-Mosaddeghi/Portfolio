@@ -7,7 +7,7 @@ export default {
         primary: "#2f2f30",
       },
       colors: {
-        primary: "#a4a6a8",
+        primary: "#d3d3d3",
       },
       fontFamily: {
         sans: ["aveat", "cursive"],

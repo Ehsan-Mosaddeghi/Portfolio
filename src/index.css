@@ -47,3 +47,11 @@ body {
   top: 0;
   width: 100%;
 }
+
+h2 {
+  @apply text-2xl;
+}
+
+p {
+  @apply text-base;
+}
