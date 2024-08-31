@@ -5,7 +5,7 @@ function NavbarItem({ item }) {
     <NavLink
       to={item.url}
       key={item.name}
-      className="flex flex-col items-center transition duration-300 hover:text-slate-200"
+      className="flex flex-col items-center transition duration-300 hover:font-extrabold hover:text-slate-100"
     >
       <span className="text-xl">{item.icon}</span>
       <p className="">{item.name}</p>

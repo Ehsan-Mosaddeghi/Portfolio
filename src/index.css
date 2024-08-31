@@ -28,7 +28,7 @@ body {
 }
 
 .active {
-  @apply text-stone-50;
+  @apply font-extrabold text-slate-50;
 }
 
 .break-line {

@@ -12,7 +12,7 @@ const menuItems = [
 function Navbar() {
   return (
     <header className="fixed z-50 flex h-20 w-full items-center justify-center">
-      <nav className="flex items-center justify-center gap-8 rounded-full bg-zinc-900 px-4 py-[0.30rem] font-mono text-primary transition-all duration-300 hover:gap-12">
+      <nav className="flex items-center justify-center gap-8 rounded-2xl bg-zinc-900 px-4 py-[0.30rem] font-mono text-blue-300 transition-all duration-300 hover:gap-12">
         {menuItems.map((item) => (
           <NavbarItem item={item} key={item.name} />
         ))}
