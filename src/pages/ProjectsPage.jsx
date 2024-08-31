@@ -1,6 +1,8 @@
+import AnimatePage from "../ui/AnimatePage";
+
 function ProjectsPage() {
   return (
-    <>
+    <AnimatePage>
       <h1 className="mb-8 text-6xl">Projects</h1>
 
       <ul className="grid grid-cols-3 gap-4">
@@ -23,7 +25,7 @@ function ProjectsPage() {
           </div>
         </a>
       </ul>
-    </>
+    </AnimatePage>
   );
 }
 
