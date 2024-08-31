@@ -6,7 +6,7 @@ const menuItems = [
   { name: "Home", url: "/", icon: <FaHome /> },
   { name: "Projects", url: "/projects", icon: <MdLibraryBooks /> },
   { name: "About", url: "/about", icon: <FaUser /> },
-  { name: "Contact", url: "/contact", icon: <MdEmail /> },
+  { name: "News", url: "/news", icon: <MdEmail /> },
 ];
 
 function Navbar() {
