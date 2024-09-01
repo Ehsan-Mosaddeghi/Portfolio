@@ -15,7 +15,7 @@ function HomePage() {
             <img
               src="/images/homepage-image.jpg"
               alt="portfolio image"
-              className="image-me relative z-10 w-64 rounded-full"
+              className="image-me rounded-ful relative z-10 w-64 max-w-none"
             />
           </div>
 
@@ -26,7 +26,7 @@ function HomePage() {
               }}
             />
 
-            <p className="max-w-sm text-lg">
+            <p className="text-lg">
               19 years old self-taught frontend developer passionate about
               learning and creating innovative user experiences. Eager to grow
               and explore new technologies.
