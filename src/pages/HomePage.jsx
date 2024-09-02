@@ -31,6 +31,16 @@ function HomePage() {
               learning and creating innovative user experiences. Eager to grow
               and explore new technologies.
             </p>
+
+            <div>
+              <a
+                className="rounded-md border-2 border-primary bg-transparent px-6 py-3 text-xl duration-300 hover:invert"
+                href="https://drive.google.com/file/d/1Aj4nrS6B-AW5Vj2AijqYH5ct2rLJezIi/view?usp=drive_link"
+                target="blink"
+              >
+                My Resume
+              </a>
+            </div>
           </div>
         </div>
 

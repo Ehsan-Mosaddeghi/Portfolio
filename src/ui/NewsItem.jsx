@@ -17,14 +17,14 @@ function NewsItem({ children, date }) {
 
   return (
     <>
-      <div className="grid grid-cols-1 py-8 text-xl sm:grid-cols-[135px_135px_1fr]">
+      <div className="grid grid-cols-2 py-8 text-xl sm:grid-cols-[135px_135px_1fr]">
         {convertedDate !== "Invalid Date" && (
           <span className="">{days > 0 ? `${days} days ago` : "New"}</span>
         )}
         <span>
           {convertedMonthAndDay}, <br /> {convertedYear}
         </span>
-        {children}
+        <div className="col-span-2 sm:col-auto">{children}</div>
       </div>
       <div className="break-line"></div>
     </>
