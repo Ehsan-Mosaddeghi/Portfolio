@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function NewsItem({ children, date }) {
   const millisecondsDiff = Math.abs(
     new Date().getTime() - new Date(date).getTime(),
@@ -30,5 +32,9 @@ function NewsItem({ children, date }) {
     </>
   );
 }
+NewsItem.propTypes = {
+  children: PropTypes.node.isRequired,
+  date: PropTypes.string,
+};
 
 export default NewsItem;

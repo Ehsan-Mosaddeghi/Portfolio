@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import PropTypes from "prop-types";
 
 const animations = {
   initial: { opacity: 0 },
@@ -19,5 +20,8 @@ function AnimatePage({ children }) {
     </motion.div>
   );
 }
+AnimatePage.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default AnimatePage;

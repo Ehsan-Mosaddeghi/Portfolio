@@ -12,7 +12,7 @@ function AboutPage() {
         </p>
       </AboutItem>
 
-      <AboutItem title="A Bit About My Background">
+      {/* <AboutItem title="A Bit About My Background">
         <p>
           Growing up in Tabriz, I've always been fascinated by technology and
           its endless possibilities. I've spent countless hours honing my
@@ -21,7 +21,7 @@ function AboutPage() {
           immersed in a good book, watching a thought-provoking movie, or
           listening to insightful podcasts.
         </p>
-      </AboutItem>
+      </AboutItem> */}
       <AboutItem title="My Journey as a Frontend Developer">
         <p>
           My fascination with frontend development began when I was just 16. I

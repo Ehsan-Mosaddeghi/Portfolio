@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function AboutItem({ children, title }) {
   return (
     <>
@@ -11,5 +13,9 @@ function AboutItem({ children, title }) {
     </>
   );
 }
+AboutItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
 
 export default AboutItem;
