@@ -10,7 +10,9 @@ export default {
         primary: "#d3d3d3",
       },
       fontFamily: {
+        Rubik: ["Rubik", "sans-serif"],
         sans: ["aveat", "cursive"],
+        mono: [""],
       },
     },
   },

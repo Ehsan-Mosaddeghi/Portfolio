@@ -1,6 +1,7 @@
 import { FaHome, FaUser } from "react-icons/fa";
 import { MdEmail, MdLibraryBooks } from "react-icons/md";
 import NavbarItem from "./NavbarItem";
+import TranslateLang from "./TranslateLng";
 
 const menuItems = [
   { name: "Home", url: "/", icon: <FaHome /> },
@@ -17,6 +18,7 @@ function Navbar() {
           <NavbarItem item={item} key={item.name} />
         ))}
       </nav>
+      <TranslateLang />
     </header>
   );
 }

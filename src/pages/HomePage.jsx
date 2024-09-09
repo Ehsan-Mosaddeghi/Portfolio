@@ -1,11 +1,15 @@
-import Typewriter from "typewriter-effect";
-
 import "./HomePage.css";
 import SkillsList from "../components/SkillsList";
 import AnimatePage from "../ui/AnimatePage";
+import { useTranslation } from "react-i18next";
+import ResumeButton from "../ui/ResumeButton";
 
 function HomePage() {
-  const title = "Hi, It's Ehsan";
+  const { t } = useTranslation();
+
+  // useEffect(() => {
+  //   type;
+  // }, [i18n]);
 
   return (
     <AnimatePage>
@@ -20,26 +24,18 @@ function HomePage() {
           </div>
 
           <div className="space-y-4 text-5xl text-stone-200">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter.typeString(title).start();
-              }}
-            />
+            <div className="typewriter inline-block">
+              <h1>{t("Hi It's Ehsan Mosaddeghi")}</h1>
+            </div>
 
             <p className="text-lg">
-              19 years old self-taught frontend developer passionate about
-              learning and creating innovative user experiences. Eager to grow
-              and explore new technologies.
+              {t(
+                "19 years old self-taught frontend developer passionate about learning and creating innovative user experiences. Eager to grow and explore new technologies.",
+              )}
             </p>
 
             <div>
-              <a
-                className="relative z-10 rounded-md border-2 border-primary bg-transparent px-4 py-2 text-base duration-300 after:absolute after:left-1/2 after:top-0 after:-z-10 after:block after:h-full after:w-0 after:-translate-x-1/2 after:bg-green-800 after:duration-500 hover:after:w-full"
-                href="https://drive.google.com/file/d/1Aj4nrS6B-AW5Vj2AijqYH5ct2rLJezIi/view?usp=drive_link"
-                target="blink"
-              >
-                My Resume
-              </a>
+              <ResumeButton>{t("My Resume")}</ResumeButton>
             </div>
           </div>
         </div>
@@ -48,8 +44,8 @@ function HomePage() {
 
         <div className="flex flex-col gap-10">
           <div>
-            <h2 className="text-5xl">Skills</h2>
-            <p>Some of the software I use on daily basis</p>
+            <h2 className="text-5xl">{t("Skills")}</h2>
+            <p>{t("Some of the software I use on daily basis")}</p>
           </div>
           <div>
             <SkillsList />
