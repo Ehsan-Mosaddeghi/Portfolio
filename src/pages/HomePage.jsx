@@ -14,7 +14,7 @@ function HomePage() {
   return (
     <AnimatePage>
       <div className="flex flex-col gap-20">
-        <div className="flex items-center justify-center gap-8">
+        <div className="flex flex-col items-center justify-center gap-8 md:flex-row">
           <div className="image-container relative">
             <img
               src="/images/homepage-image.jpg"
@@ -43,7 +43,7 @@ function HomePage() {
         <div className="break-line"></div>
 
         <div className="flex flex-col gap-10">
-          <div>
+          <div className="space-y-2">
             <h2 className="text-5xl">{t("Skills")}</h2>
             <p>{t("Some of the software I use on daily basis")}</p>
           </div>
