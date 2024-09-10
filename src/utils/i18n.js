@@ -19,7 +19,7 @@ i18next
           Socials: "ارتباط با من",
           "Hi It's Ehsan": "سلام, احسان هستم",
           "19 years old self-taught frontend developer passionate about learning and creating innovative user experiences. Eager to grow and explore new technologies.":
-            "۱۹ ساله توسعه دهنده فرانت اند خودآموز علاقه مند به یادگیری و ایجاد تجربیات کاربری نوآورانه. مشتاق به رشد و کاوش تکنولوژی های جدید",
+            "    توسعه دهنده فرانت اند خودآموز علاقه مند به یادگیری و ایجاد تجربیات کاربری نوآورانه. مشتاق به رشد و کاوش تکنولوژی های جدید",
           "My Resume": "رزومه",
           "Some of the software I use on daily basis":
             "برخی از ابزار هایی که من استفاده میکنم",
