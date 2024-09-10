@@ -11,8 +11,7 @@ export default {
       },
       fontFamily: {
         Rubik: ["Rubik", "sans-serif"],
-        sans: ["aveat", "cursive"],
-        mono: [""],
+        sans: ["Mukta", "sans-serif"],
       },
       animation: {
         bounce: "bounce 2s",
