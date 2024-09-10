@@ -7,10 +7,6 @@ import ResumeButton from "../ui/ResumeButton";
 function HomePage() {
   const { t } = useTranslation();
 
-  // useEffect(() => {
-  //   type;
-  // }, [i18n]);
-
   return (
     <AnimatePage>
       <div className="flex flex-col gap-20">
@@ -25,7 +21,7 @@ function HomePage() {
 
           <div className="space-y-4 text-5xl text-stone-200">
             <div className="typewriter inline-block">
-              <h1>{t("Hi It's Ehsan Mosaddeghi")}</h1>
+              <h1>{t("Hi It's Ehsan")}</h1>
             </div>
 
             <p className="text-lg">

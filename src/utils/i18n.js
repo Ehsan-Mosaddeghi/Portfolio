@@ -17,7 +17,7 @@ i18next
           News: "خبر ها",
           Skills: "مهارت ها",
           Socials: "ارتباط با من",
-          "Hi It's Ehsan Mosaddeghi": "سلام , احسان مصدقی هستم",
+          "Hi It's Ehsan": "سلام, احسان هستم",
           "19 years old self-taught frontend developer passionate about learning and creating innovative user experiences. Eager to grow and explore new technologies.":
             "۱۹ ساله توسعه دهنده فرانت اند خودآموز علاقه مند به یادگیری و ایجاد تجربیات کاربری نوآورانه. مشتاق به رشد و کاوش تکنولوژی های جدید",
           "My Resume": "رزومه",

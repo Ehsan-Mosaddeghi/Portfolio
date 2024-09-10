@@ -91,3 +91,7 @@
     border-color: rgb(255, 255, 255);
   }
 }
+
+html {
+  @apply text-sm md:text-base;
+}

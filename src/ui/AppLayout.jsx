@@ -13,7 +13,7 @@ function AppLayout() {
       className={`flex min-h-svh flex-col bg-gradient-to-b from-slate-500 to-stone-900 text-primary duration-300 ${i18n.language === "fa" ? "text-right font-Rubik" : "font-sans"}`}
     >
       <Navbar />
-      <section className="container m-auto mt-[4.5rem] flex-auto">
+      <section className="container m-auto mt-12 flex-auto sm:mt-[4.5rem]">
         <Outlet />
       </section>
       <Footer />
