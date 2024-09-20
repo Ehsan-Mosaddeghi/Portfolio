@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function ProjectItem({ title, description, image, href }) {
   return (
     <a
@@ -14,5 +16,11 @@ function ProjectItem({ title, description, image, href }) {
     </a>
   );
 }
+ProjectItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+};
 
 export default ProjectItem;
