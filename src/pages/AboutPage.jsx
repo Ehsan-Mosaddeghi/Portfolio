@@ -59,7 +59,7 @@ function AboutPage() {
           )}
         </p>
       </AboutItem>
-      <AboutItem title={t("Get in Touch")}>
+      <AboutItem title={t("Get in Touch")} breakLine={false}>
         <p>
           {t(
             "If you'd like to learn more about my projects, experiences, or interests, feel free to explore my portfolio or reach out to me directly. I'm always open to new opportunities, collaborations, and conversations about the latest tech trends and ideas.",

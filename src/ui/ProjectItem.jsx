@@ -1,15 +1,29 @@
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 function ProjectItem({ title, description, image, href }) {
+  const [showInfo, setShowInfo] = useState(false);
+
   return (
     <a
       href={href}
       target="blink"
-      className="flex flex-col rounded-md bg-stone-900 duration-300 hover:-translate-y-4 hover:shadow-[0_40px_10px_-15px_rgba(0,0,0,0.3)]"
+      onMouseEnter={() => setShowInfo(true)}
+      onMouseLeave={() => setShowInfo(false)}
+      className="relative flex flex-col duration-300"
     >
-      <img src={image} alt={title} className="w-full rounded-t-md" />
+      <img
+        src={image}
+        alt={title}
+        className={`w-full rounded-2xl duration-300 ${showInfo ? "scale-105" : ""}`}
+      />
+      <div
+        className={`absolute top-0 block h-full w-full rounded-2xl bg-[rgba(0,0,0,0.4)] duration-300 ${showInfo ? "scale-105 opacity-100" : "opacity-0"}`}
+      ></div>
 
-      <div className="space-y-4 p-2">
+      <div
+        className={`absolute top-20 space-y-4 p-2 text-center duration-300 ${showInfo ? "opacity-100" : "translate-y-5 opacity-0"}`}
+      >
         <h4 className="text-2xl">{title}</h4>
         <p className="text-lg">{description}</p>
       </div>

@@ -1,5 +1,5 @@
-import { SiNuxtdotjs, SiTailwindcss } from "react-icons/si";
 import { FaCss3, FaHtml5, FaJs, FaReact, FaVuejs } from "react-icons/fa";
+import { SiNextdotjs, SiNuxtdotjs, SiTailwindcss } from "react-icons/si";
 import SkillItem from "./SkillItem";
 
 const skillItems = [
@@ -30,6 +30,10 @@ const skillItems = [
   {
     icon: <SiTailwindcss className="text-blue-400" />,
     url: "https://tailwindcss.com",
+  },
+  {
+    icon: <SiNextdotjs className="text-stone-950" />,
+    url: "https://nextjs.org",
   },
 ];
 

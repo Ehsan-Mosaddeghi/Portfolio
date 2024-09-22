@@ -9,7 +9,11 @@ function NewsPage() {
     <AnimatePage>
       <h1 className="text-3xl">{t("News")}</h1>
 
-      <NewsItem date="8/31 /2024">
+      <NewsItem date="9/22/2024">
+        <p>{t("Completed NextJS Course")} .</p>
+      </NewsItem>
+
+      <NewsItem date="8/31/2024">
         <p>{t("Portolio created")} 😄</p>
       </NewsItem>
     </AnimatePage>
