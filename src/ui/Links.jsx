@@ -24,7 +24,7 @@ const links = [
     icon: <FaGithub />,
   },
   {
-    url: "https://www.linkedin.com/in/ehsan-hpy-a54732307/",
+    url: "https://www.linkedin.com/in/ehsan-mosaddeghi-a54732307/",
     icon: <FaLinkedin />,
   },
 ];
