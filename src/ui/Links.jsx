@@ -34,10 +34,7 @@ function Links() {
     <div className="flex gap-4">
       {links.map((link) => (
         <span key={link.url}>
-          <a
-            href={link.url}
-            className="text-2xl duration-300 hover:text-blue-400"
-          >
+          <a href={link.url} className="text-2xl hover:text-blue-400">
             {link.icon}
           </a>
         </span>

@@ -19,7 +19,7 @@ function HomePage() {
             />
           </div>
 
-          <div className="space-y-4 text-5xl text-stone-200">
+          <div className="space-y-4 text-5xl text-primary transition-all duration-[400ms]">
             <div className="typewriter inline-block">
               <h1>{t("Hi It's Ehsan")}</h1>
             </div>

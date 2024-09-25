@@ -10,7 +10,7 @@ function ProjectItem({ title, description, image, href }) {
       target="blink"
       onMouseEnter={() => setShowInfo(true)}
       onMouseLeave={() => setShowInfo(false)}
-      className="relative flex flex-col duration-300"
+      className="relative flex flex-col text-slate-100 duration-300"
     >
       <img
         src={image}

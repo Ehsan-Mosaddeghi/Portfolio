@@ -10,7 +10,7 @@ function NavbarItem({ item }) {
     <NavLink
       to={item.url}
       key={item.name}
-      className="menu-item relative flex flex-col items-center transition duration-300 hover:text-slate-100"
+      className="menu-item hover:text-menuActive relative flex flex-col items-center transition duration-300"
     >
       <span className="text-xl">{item.icon}</span>
       <p className={`${i18n.language === "fa" ? "font-Rubik" : "font-sans"}`}>

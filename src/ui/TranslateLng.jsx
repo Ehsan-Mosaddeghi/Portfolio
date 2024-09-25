@@ -14,7 +14,7 @@ function TranslateLng() {
     <div className="mr-8 cursor-pointer justify-self-end text-center">
       {isOpen && (
         <div
-          className="absolute right-16 top-6 flex gap-2 rounded-md bg-stone-300 text-gray-800"
+          className="absolute right-20 top-[0.8rem] flex -translate-y-1/2 gap-2 rounded-md bg-menu p-1"
           onClick={() => setIsOpen((open) => !open)}
         >
           <span
@@ -33,7 +33,7 @@ function TranslateLng() {
       )}
       <div>
         <MdLanguage
-          className={`text-2xl ${isOpen ? "animate-spin" : ""}`}
+          className={`text-2xl hover:text-menu ${isOpen ? "animate-spin" : ""}`}
           onClick={() => setIsOpen((open) => !open)}
         />
       </div>

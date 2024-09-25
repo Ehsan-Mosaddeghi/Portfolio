@@ -4,10 +4,16 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        primary: "#2f2f30",
+        menu: "var(--bg-menu)",
+        skill: "var(--bg-skill)",
       },
       colors: {
-        primary: "#d3d3d3",
+        primary: "var(--text-primary)",
+        menu: "var(--text-menu)",
+        menuActive: "var(--menu-active)",
+
+        from: "var(--bg-from)",
+        to: "var(--bg-to)",
       },
       fontFamily: {
         Rubik: ["Rubik", "sans-serif"],
@@ -38,5 +44,7 @@ export default {
       },
     },
   },
+
+  darkMode: ["selector"],
   plugins: [],
 };
