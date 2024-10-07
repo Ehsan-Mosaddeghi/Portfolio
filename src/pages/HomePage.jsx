@@ -14,6 +14,7 @@ function HomePage() {
           <div className="image-container relative">
             <img
               src="/images/homepage-image.jpg"
+              loading="lazy"
               alt="portfolio image"
               className="image-me rounded-ful relative z-10 w-64 max-w-none"
             />

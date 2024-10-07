@@ -15,6 +15,7 @@ function ProjectItem({ title, description, image, href }) {
       <img
         src={image}
         alt={title}
+        loading="lazy"
         className={`w-full rounded-2xl duration-300 ${showInfo ? "scale-105" : ""}`}
       />
       <div

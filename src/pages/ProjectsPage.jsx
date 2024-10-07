@@ -19,7 +19,7 @@ function ProjectsPage() {
 
         <ProjectItem
           image="/images/projects_worldwise_user.png"
-          title="The World Wise"
+          title="The World Oasis"
           description="Created with NextJS, TailwindCSS and Supabase."
           href="https://the-wild-oasis-user-ten.vercel.app/"
         />
