@@ -23,6 +23,13 @@ function ProjectsPage() {
           description="Created with NextJS, TailwindCSS and Supabase."
           href="https://the-wild-oasis-user-ten.vercel.app/"
         />
+
+        <ProjectItem
+          image="/images/projects_weather.png"
+          title="Weather website"
+          description="Built with Nuxt3 and TailwindCSS."
+          href="https://weather-w.vercel.app/"
+        />
       </ul>
     </AnimatePage>
   );

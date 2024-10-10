@@ -23,7 +23,7 @@ function ProjectItem({ title, description, image, href }) {
       ></div>
 
       <div
-        className={`absolute top-20 space-y-4 p-2 text-center duration-300 ${showInfo ? "opacity-100" : "translate-y-5 opacity-0"}`}
+        className={`absolute top-20 w-full space-y-4 p-2 text-center duration-300 ${showInfo ? "opacity-100" : "translate-y-5 opacity-0"}`}
       >
         <h4 className="text-2xl">{title}</h4>
         <p className="text-lg">{description}</p>
