@@ -30,6 +30,13 @@ function ProjectsPage() {
           description="Built with Nuxt3 and TailwindCSS."
           href="https://weather-w.vercel.app/"
         />
+
+        <ProjectItem
+          image="/images/projects_todo.png"
+          title="Todo list"
+          description="Built with pure HTML & CSS and Javascript"
+          href="https://todo-list-e.vercel.app/"
+        />
       </ul>
     </AnimatePage>
   );
