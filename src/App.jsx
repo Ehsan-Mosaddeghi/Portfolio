@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import NewsPage from "./pages/NewsPage";
 import AppLayout from "./ui/AppLayout";
 import { DarkModeProvider } from "./context/DarkModeContext";
+import { BackgroundBeams } from "./ui/BackgroundBeams";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <DarkModeProvider>
+      <BackgroundBeams />
       <RouterProvider router={router} />
     </DarkModeProvider>
   );
