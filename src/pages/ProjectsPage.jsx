@@ -37,6 +37,13 @@ function ProjectsPage() {
           description="Built with pure HTML & CSS and Javascript"
           href="https://todo-list-e.vercel.app/"
         />
+
+        <ProjectItem
+          image="/images/projects_worldoasis_dashboard.png"
+          title="World Oasis Admin Dashboard"
+          description="Built React & React query and styled-components"
+          href="https://the-wild-oasis-omega-sepia.vercel.app/"
+        />
       </ul>
     </AnimatePage>
   );
