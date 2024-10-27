@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function ProjectItem({ title, description, image, href }) {
   const [showInfo, setShowInfo] = useState(false);
@@ -12,9 +13,9 @@ function ProjectItem({ title, description, image, href }) {
       onMouseLeave={() => setShowInfo(false)}
       className="relative flex flex-col text-slate-100 duration-300"
     >
-      <img
-        src={image}
+      <LazyLoadImage
         alt={title}
+        src={image}
         loading="lazy"
         className={`w-full rounded-2xl duration-300 ${showInfo ? "scale-105" : ""}`}
       />
