@@ -17,10 +17,7 @@ function Footer() {
         <div className="flex flex-col justify-center gap-[0.6rem] text-center text-xl">
           <h4>{t("Socials")}</h4>
           <Links />
-          <ResumeButton
-            href="https://drive.google.com/file/d/1Aj4nrS6B-AW5Vj2AijqYH5ct2rLJezIi/view?usp=drive_link"
-            target="blink"
-          >
+          <ResumeButton href="/Ehsan-Mosaddeghi-Resume.pdf">
             {t("My Resume")}
           </ResumeButton>
         </div>

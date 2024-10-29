@@ -32,10 +32,7 @@ function HomePage() {
             </p>
 
             <div>
-              <ResumeButton
-                href="https://drive.google.com/file/d/1Aj4nrS6B-AW5Vj2AijqYH5ct2rLJezIi/view?usp=drive_link"
-                target="blink"
-              >
+              <ResumeButton href="/Ehsan-Mosaddeghi-Resume.pdf" target="blink">
                 {t("My Resume")}
               </ResumeButton>
             </div>
