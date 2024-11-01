@@ -20,22 +20,29 @@ function ProjectsPage() {
         <ProjectItem
           image="/images/projects_weather.png"
           title="Weather website"
-          description="Built with Nuxt3 and TailwindCSS."
+          description="(Nuxt3 and TailwindCSS)"
           href="https://weather-w.vercel.app/"
         />
 
         <ProjectItem
           image="/images/projects_todo.png"
           title="Todo list"
-          description="Built with pure HTML & CSS and Javascript"
+          description="(pure HTML & CSS and Javascript)"
           href="https://todo-list-e.vercel.app/"
         />
 
         <ProjectItem
           image="/images/projects_worldoasis_dashboard.png"
           title="World Oasis Admin Dashboard"
-          description="Built React & React query and styled-components"
+          description="(React & React query and styled-components)"
           href="https://the-wild-oasis-omega-sepia.vercel.app/"
+        />
+
+        <ProjectItem
+          image="/images/projects_reactquiz.png"
+          title="The React Quiz"
+          description="(React & Context)"
+          href="https://react-quiz-ehsan.vercel.app/"
         />
       </ul>
     </AnimatePage>
