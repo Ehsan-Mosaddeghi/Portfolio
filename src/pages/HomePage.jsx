@@ -3,6 +3,7 @@ import SkillsList from "../components/SkillsList";
 import AnimatePage from "../ui/AnimatePage";
 import { useTranslation } from "react-i18next";
 import ResumeButton from "../ui/ResumeButton";
+import Tilt from "react-parallax-tilt";
 
 function HomePage() {
   const { t } = useTranslation();
@@ -11,15 +12,23 @@ function HomePage() {
     <AnimatePage>
       <div className="flex flex-col gap-20">
         <div className="flex flex-col items-center justify-center gap-8 md:flex-row">
-          <div className="image-container relative">
-            <img
-              src="/images/homepage-image.jpg"
-              loading="lazy"
-              alt="portfolio image"
-              className="image-me rounded-ful relative z-10 w-64 max-w-none"
-            />
-          </div>
-
+          <Tilt
+            tiltMaxAngleX={35}
+            tiltMaxAngleY={35}
+            perspective={900}
+            scale={1}
+            transitionSpeed={2000}
+            gyroscope={true}
+          >
+            <div className="image-container relative">
+              <img
+                src="/images/homepage-image.jpg"
+                loading="lazy"
+                alt="portfolio image"
+                className="image-me rounded-ful relative z-10 w-64 max-w-none"
+              />
+            </div>
+          </Tilt>
           <div className="space-y-4 text-5xl text-primary transition-all duration-[400ms]">
             <div className="typewriter inline-block">
               <h1>{t("Hi It's Ehsan")}</h1>
