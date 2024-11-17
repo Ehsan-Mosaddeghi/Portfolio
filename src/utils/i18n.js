@@ -51,6 +51,8 @@ i18next
           "days ago": "روز قبل",
           "Portolio created": "ساخته شدن وب سایت",
           "Completed NextJS Course": "NextJS تموم کردن دوره ",
+          "Beginning of Islamic Azad University in the field of computer engineering":
+            "شروع دانشگاه آزاد اسلامی رشته مهندسی کامپیوتر",
         },
       },
     },
