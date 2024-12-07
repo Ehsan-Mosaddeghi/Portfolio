@@ -6,6 +6,7 @@ import AnimatePage from "../ui/AnimatePage";
 import { useTranslation } from "react-i18next";
 import ResumeButton from "../ui/ResumeButton";
 import Tilt from "react-parallax-tilt";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function HomePage() {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ function HomePage() {
             gyroscope={true}
           >
             <div className="image-container relative">
-              <img
+              <LazyLoadImage
                 src="/images/homepage-image.jpg"
                 loading="lazy"
                 alt="portfolio image"

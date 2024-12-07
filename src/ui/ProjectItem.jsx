@@ -4,6 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function ProjectItem({ title, description, image, href }) {
   const [showInfo, setShowInfo] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   return (
     <a
@@ -17,7 +18,8 @@ function ProjectItem({ title, description, image, href }) {
         alt={title}
         src={image}
         loading="lazy"
-        className={`w-full rounded-2xl duration-300 ${showInfo ? "scale-105" : ""}`}
+        onLoad={() => setIsLoaded(true)}
+        className={`w-full rounded-2xl duration-300 ${showInfo ? "scale-105" : ""} ${isLoaded ? "" : "blur-xl"}`}
       />
       <div
         className={`absolute top-0 block h-full w-full rounded-2xl bg-[rgba(0,0,0,0.4)] duration-300 ${showInfo ? "scale-105 opacity-100" : "opacity-0"}`}
