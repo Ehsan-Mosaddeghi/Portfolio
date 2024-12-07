@@ -1,4 +1,6 @@
 import "./HomePage.css";
+import { motion } from "framer-motion";
+
 import SkillsList from "../components/SkillsList";
 import AnimatePage from "../ui/AnimatePage";
 import { useTranslation } from "react-i18next";
@@ -29,22 +31,36 @@ function HomePage() {
               />
             </div>
           </Tilt>
-          <div className="space-y-4 text-5xl text-primary transition-all duration-[400ms]">
-            <div className="typewriter inline-block">
+          <div className="space-y-4 text-5xl text-primary transition-all duration-[600ms]">
+            <motion.div
+              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, scale: 1.5 }}
+              transition={{ duration: 0.6 }}
+              className="inline-block"
+            >
               <h1>{t("Hi It's Ehsan")}</h1>
-            </div>
+            </motion.div>
 
-            <p className="text-lg">
+            <motion.p
+              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, scale: 1.5 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="text-lg"
+            >
               {t(
                 "19 years old self-taught frontend developer passionate about learning and creating innovative user experiences. Eager to grow and explore new technologies.",
               )}
-            </p>
+            </motion.p>
 
-            <div>
+            <motion.div
+              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, scale: 1.5 }}
+              transition={{ duration: 0.6, delay: 1.2 }}
+            >
               <ResumeButton href="/Ehsan-Mosaddeghi-Resume.pdf" target="blink">
                 {t("My Resume")}
               </ResumeButton>
-            </div>
+            </motion.div>
           </div>
         </div>
 
