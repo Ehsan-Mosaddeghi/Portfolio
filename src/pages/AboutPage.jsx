@@ -7,24 +7,8 @@ function AboutPage() {
 
   return (
     <AnimatePage>
-      {/* <AboutItem title={t("About Ehsan Mosaddeghi")}>
-        <p>
-          {t(
-            "Hi, I'm Ehsan Mosaddeghi, a soon-to-be computer science student at the University of Tabriz, Iran. As a tech enthusiast, I'm excited to dive into the world of coding and software development.",
-          )}
-        </p>
-      </AboutItem> */}
+      <h1 className="mb-8 text-3xl">{t("About Me")}</h1>
 
-      {/* <AboutItem title="A Bit About My Background">
-        <p>
-          Growing up in Tabriz, I've always been fascinated by technology and
-          its endless possibilities. I've spent countless hours honing my
-          skills, exploring new programming languages, and experimenting with
-          innovative projects. When I'm not studying or working, you can find me
-          immersed in a good book, watching a thought-provoking movie, or
-          listening to insightful podcasts.
-        </p>
-      </AboutItem> */}
       <AboutItem title={t("My Journey as a Frontend Developer")}>
         <p>
           {t(

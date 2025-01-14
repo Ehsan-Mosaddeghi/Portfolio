@@ -10,7 +10,7 @@ function Footer() {
       <footer className="flex bg-[#00000050]">
         <div className="container flex w-full items-center justify-between">
           <div className="max-w-lg space-y-3">
-            <h2>{t("Frontend developer")}</h2>
+            <h2 className="text-xl">{t("Frontend developer")}</h2>
             <p>
               {t(
                 "© 2024 Ehsan Mosaddeghi, Tabriz, Iran. All rights reserved.",

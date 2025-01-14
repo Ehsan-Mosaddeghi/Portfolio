@@ -53,6 +53,7 @@ i18next
           "Completed NextJS Course": "NextJS تموم کردن دوره ",
           "Beginning of Islamic Azad University in the field of computer engineering":
             "شروع دانشگاه آزاد اسلامی رشته مهندسی کامپیوتر",
+          "About Me": "درباره من",
         },
       },
     },

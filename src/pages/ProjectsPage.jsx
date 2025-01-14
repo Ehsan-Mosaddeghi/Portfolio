@@ -24,12 +24,12 @@ function ProjectsPage() {
           href="https://weather-w.vercel.app/"
         />
 
-        <ProjectItem
+        {/* <ProjectItem
           image="/images/projects_todo.png"
           title="Todo list"
           description="(pure HTML & CSS and Javascript)"
           href="https://todo-list-e.vercel.app/"
-        />
+        /> */}
 
         <ProjectItem
           image="/images/projects_worldoasis_dashboard.png"
