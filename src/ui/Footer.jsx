@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <>
-      <footer className="flex bg-[#00000050]">
+      <footer className="z-10 flex bg-[#00000050]">
         <div className="container flex w-full items-center justify-between">
           <div className="max-w-lg space-y-3">
             <h2 className="text-xl">{t("Frontend developer")}</h2>
