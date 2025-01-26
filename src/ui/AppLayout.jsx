@@ -12,7 +12,7 @@ function AppLayout() {
 
   return (
     <div
-      className={`flex min-h-svh flex-col from-from to-to bg-cover bg-center bg-no-repeat text-primary transition-all duration-[400ms] ${i18n.language === "fa" ? "text-right font-Rubik" : "font-sans"} ${isDarkMode ? "bg-[url(/images/wave-haikei.svg)]" : "bg-[url(/images/wave-haikei-light.svg)]"}`}
+      className={`flex min-h-svh flex-col from-from to-to bg-cover bg-center bg-no-repeat text-primary transition-all duration-[400ms] ${i18n.language === "fa" ? "text-right font-Rubik" : "font-sans"} ${isDarkMode ? "bg-[url(/wave-haikei.svg)]" : "bg-[url(/wave-haikei-light.svg)]"}`}
     >
       <Navbar />
       <section className="container m-auto mt-12 flex-auto sm:mt-[4.5rem]">
